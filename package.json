@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev",
+    "dev": "ts-node-dev server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,11 +19,13 @@
   },
   "homepage": "https://github.com/nadalmateus/prisma-overview#readme",
   "dependencies": {
+    "@prisma/client": "^3.7.0",
     "express": "^4.17.2"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/node": "^17.0.2",
+    "exlint": "^0.1.6",
     "prisma": "^3.7.0",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.5.4"
