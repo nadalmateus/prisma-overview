@@ -11,6 +11,6 @@ async function update() {
       duration: 300,
     },
   });
-  console.log(update)
+  console.log(update);
 }
 update();

@@ -10,8 +10,8 @@ async function main() {
       description: "TS"
     },
   });
-  console.log(result)
+  console.log(result);
 }
 
 
-main()
+main();
